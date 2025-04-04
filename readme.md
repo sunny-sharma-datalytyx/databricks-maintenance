@@ -76,7 +76,7 @@ cache:
 You can:
 
 1. Install the package with ```pip install -e .``` in the project directory
-1. Setup your environment variables using ```export DATABRICKS_HOST=https://your-host-name``` and ```export DATABRICkS_TOKEN=your-persona-access-token``` (Windows users use SET instead of EXPORT) **NB: Probably better to use databricks-maintenance.yml file for multiple workspaces such as dev, prod, test, etc and adjust your env vars accordingly.**
+1. Setup your environment variables using ```export DATABRICKS_HOST=https://your-host-name``` and ```export DATABRICKS_TOKEN=your-persona-access-token``` (Windows users use SET instead of EXPORT) **NB: Probably better to use databricks-maintenance.yml file for multiple workspaces such as dev, prod, test, etc and adjust your env vars accordingly.**
 1. Configure multiple workspaces in a ```.databricks-maintenance.yml``` file
 1. Run commands like ```databricks-maintenance check-runtimes```
 1. Generate reports with ```databricks-maintenance generate-report```
